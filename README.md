@@ -5,10 +5,14 @@ hidden_wav_player is a minimalistic command-line utility designed for playing WA
 
 ## Features:
 
-Plays WAV audio files silently.
-No visible user interface during playback.
-Easy to integrate into scripts or workflows requiring hidden audio playback.
-Optionally includes a wait time before audio playback.
+- Plays WAV audio files silently.
+- No visible user interface during playback.
+- Easy to integrate into scripts or workflows requiring hidden audio playback.
+- Optionally includes a wait time before audio playback.
+
+## Setup:
+
+Before using hidden_wav_player, make sure to place the `playwav.exe` file in the same directory as `hidden_wav_player.exe`. This is necessary for the utility to function correctly.
 
 ## Usage:
 
@@ -19,8 +23,8 @@ Optionally includes a wait time before audio playback.
 
 ## Requirements:
 
-Windows operating system.
-No additional dependencies.
+- Windows operating system.
+- No additional dependencies.
 
 ## Usage Example:
 
@@ -30,8 +34,4 @@ No additional dependencies.
 The first example plays the audio file without any wait time, while the second example waits for 5 seconds before playing the audio.
 
 ## Compile:
-`x86_64-w64-mingw32-gcc -o hidden_wav_player.exe hidden_wav_player.c -mwindows -lwinmm`  
-`x86_64-w64-mingw32-gcc -o playwav.exe playwav.c -mwindows -lwinmm`
-
-## License:
-This software is released under the MIT License.
+To compile the source code, use the following commands:
