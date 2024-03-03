@@ -30,7 +30,8 @@ No additional dependencies.
 The first example plays the audio file without any wait time, while the second example waits for 5 seconds before playing the audio.
 
 ## Compile:
-`x86_64-w64-mingw32-gcc -o hidden_wav_player.exe hidden_wav_player.c -mwindows -lwinmm`
+`x86_64-w64-mingw32-gcc -o hidden_wav_player.exe hidden_wav_player.c -mwindows -lwinmm`  
+`x86_64-w64-mingw32-gcc -o playwav.exe playwav.c -mwindows -lwinmm`
 
 ## License:
 This software is released under the MIT License.
