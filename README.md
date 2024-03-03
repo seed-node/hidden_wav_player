@@ -36,7 +36,7 @@ The first example plays the audio file without any wait time, while the second e
 ## Compile:
 To compile the source code, use the following commands:
 
-`x86_64-w64-mingw32-gcc -o hidden_wav_player.exe hidden_wav_player.c -mwindows -lwinmm`  
+`x86_64-w64-mingw32-gcc -o hidden_wav_player.exe hidden_wav_player.c -mwindows`
 `x86_64-w64-mingw32-gcc -o playwav.exe playwav.c -mwindows -lwinmm`
 
 ## License:
