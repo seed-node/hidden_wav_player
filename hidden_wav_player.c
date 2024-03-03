@@ -1,6 +1,7 @@
-#include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
+
 
 void displayError(const char *message) {
     char errorMessage[256];
